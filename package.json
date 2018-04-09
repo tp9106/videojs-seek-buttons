@@ -80,10 +80,12 @@
     "src/",
     "test/"
   ],
+  "peerDependencies" : {
+    "video.js": "6.x.x || ^5.19.2"
+  },
   "dependencies": {
     "global": "^4.3.2",
-    "karma-safaritechpreview-launcher": "0.0.6",
-    "video.js": "^6.x.x || ^5.19.2"
+    "karma-safaritechpreview-launcher": "0.0.6"
   },
   "devDependencies": {
     "babel": "^5.8.0",
